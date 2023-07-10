@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Cheltenham-Regular';
     src: url('cheltenham-normal-300.woff2') format('woff2')
 }
@@ -26,14 +26,13 @@
 @font-face {
     font-family: 'Imperial-Regular';
     src: url('imperial-normal-400.woff2') format('woff2')
-}
+} */
 
 h1 {
-    /* font-family: "Postoni-Bold"; */
-    font-family: "Cheltenham-Bold";
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     /* font-style: italic; */
-    font-size: 40px;
+    font-size: 30px;
     margin: 0;
     line-height: 46px;
     color: #121212;
@@ -112,14 +111,11 @@ a:hover {
 }
 
 .article__text {
-    font-family: "Imperial-Regular";
+    font-family: 'Roboto', sans-serif;
     line-height: 30px;
-    /* padding-top: 24px; */
-    /* padding-bottom: 24px; */
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 18px;
     color: #2a2a2a;
-    /* margin: 0; */
 }
 
 .article__text span {
@@ -141,11 +137,11 @@ a:hover {
 
 .label {
     font-size: 16px;
-    font-family: "Franklin-Bold";
+    font-family: 'Roboto', sans-serif;;
     font-weight: 700;
     text-transform: uppercase;
     padding-bottom: 4px;
-    color: #121212;
+    color: #000000;
     /* color: #1955a5; */
     margin-top: 60px;
     margin-bottom: 10px;
@@ -156,7 +152,7 @@ a:hover {
 
 .subhed {
     font-size: 24px;
-    font-family: "Cheltenham-Regular";
+    font-family: 'Roboto', sans-serif;
     padding-bottom: 4px;
     margin-bottom: 30px;
     margin-top: 0;
@@ -164,27 +160,17 @@ a:hover {
 }
 
 .byline {
-    /* font-family: "Franklin-Light"; */
-    font-family: "Franklin-Bold";
-    font-size: 15px;
+  
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     margin-bottom: 12px;
     color: #333;
 }
 
-/*.byline span {
-    border-bottom: 1px solid #333;
-}*/
-
-/* span {
-    border-bottom: 1px solid #666;
-    color: #2a2a2a;
-} */
-
 .date {
     color: #666;
-    font-size: 13px;
-    /* font-family: "Franklin-Light"; */
-    font-family: "Franklin-Regular";
+    font-size: 15px;
+    font-family:'Roboto', sans-serif;
     margin-bottom: 20px;
     margin-top: 4px;
 }
@@ -202,7 +188,7 @@ img {
 
 .image__caption {
     /* font-family: "Franklin-Light"; */
-    font-family: "Imperial-Regular";
+    font-family: 'Roboto', sans-serif;
     line-height: 1.25;
     color: #727272;
     margin-top: 6px;
@@ -256,7 +242,7 @@ iframe {
 @media (max-width: 945px) {
     .graphic__info,
     .graphic__caption {
-        max-width: 600px;
+        max-width: 800px;
         padding-left: 5vw;
         padding-right: 5vw;
     }
