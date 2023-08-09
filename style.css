@@ -224,6 +224,13 @@ iframe {
     }
 }
 
+a {
+    text-decoration: none;
+    border-bottom: 1px dotted #000000; 
+    color: #000000;
+    padding-bottom: 0px;
+}
+
 /* html, body {
     margin: 0;
     background: beige;
