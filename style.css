@@ -1,32 +1,4 @@
-/* @font-face {
-    font-family: 'Cheltenham-Regular';
-    src: url('cheltenham-normal-300.woff2') format('woff2')
-}
 
-@font-face {
-    font-family: 'Cheltenham-Bold';
-    src: url('cheltenham-normal-700.woff2') format('woff2')
-}
-
-@font-face {
-    font-family: 'Franklin-Light';
-    src: url('franklin-normal-300.woff2') format('woff2')
-}
-
-@font-face {
-    font-family: 'Franklin-Regular';
-    src: url('franklin-normal-500.woff2') format('woff2')
-}
-
-@font-face {
-    font-family: 'Franklin-Bold';
-    src: url('franklin-normal-700.woff2') format('woff2')
-}
-
-@font-face {
-    font-family: 'Imperial-Regular';
-    src: url('imperial-normal-400.woff2') format('woff2')
-} */
 
 h1 {
     font-family: 'Roboto', sans-serif;
@@ -133,6 +105,8 @@ a:hover {
     padding-right: 5vw;
 }
 
+
+
 .label {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;;
@@ -227,6 +201,11 @@ iframe {
     position: absolute;
     white-space: nowrap; 
     width: 1px;
+  }
+
+  #player {
+    margin:0 auto;
+
   }
 
 @media (max-width: 1024px) {
