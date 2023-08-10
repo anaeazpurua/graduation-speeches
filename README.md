@@ -12,3 +12,5 @@ Overview of the data analysis process
 ## New skills, approaches
 
 ## Things I tried to do or want to do but did not have the skills/time (but if I have more time might do)
+- Analyze the similarities/differences among the speeches. Do some of the frequent words repeat?
+-  
