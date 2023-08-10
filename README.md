@@ -16,7 +16,6 @@ My most obvious finding is that I don't love word frequency counts. It may be th
 
 ## Data collection and analysis 
 
-
 To decide the top 12 speakers I checked several news articles and chose two --one from The Guardian and another one from Forbes-- to scrape the names and create a list using pandas and Beautiful Soup. 
 
 Because I had limited time to finish this project, I decided to focus on the speeches with
